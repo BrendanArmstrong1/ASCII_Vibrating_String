@@ -14,13 +14,13 @@ void *render_string(stgpk *);
 void *string_calculator(stgpk *);
 void initialize(stgpk *);
 
-#define LEN 300
+#define LEN 150
 
 const float LENGTH = (float)LEN;
 const float HIEGHT = 60;
 const float CYCLES = 100;
-const float TERMS = 25;
-const float DIST = 150;
+const float TERMS = 3;
+const float DIST = 10;
 const float TENSION = 60;
 const float LINEAR_DENSITY = 0.01;
 const float PI = 3.14159;
